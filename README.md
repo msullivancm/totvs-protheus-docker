@@ -44,3 +44,16 @@ Veja [aqui](./dbmonitor/README.md) como rodar o DBMonitor dentro de um container
 ## Passo a passo
 
 __TODO__
+
+
+
+# Git Modules
+marcus.sullivan_adm@srvomnilink:~/totvs-protheus-docker$ git submodule init
+Submodule 'appserver' (https://github.com/endersonmaia/totvs-appserver-docker) registered for path 'appserver'
+Submodule 'dbaccess' (https://github.com/endersonmaia/totvs-dbaccess-docker) registered for path 'dbaccess'
+(base) marcus.sullivan_adm@srvomnilink:~/totvs-protheus-docker$ git submodule update
+Cloning into '/home/marcus.sullivan_adm/totvs-protheus-docker/appserver'...
+Cloning into '/home/marcus.sullivan_adm/totvs-protheus-docker/dbaccess'...
+Submodule path 'appserver': checked out '50545aa9430d81841f3f0d26f035ef4a161a2bf4'
+Submodule path 'dbaccess': checked out '137e11c7af86fa4d5f50e13547d12173d4cbbfd4'
+(base) marcus.sullivan_adm@srvomnilink:~/totvs-protheus-docker$ 
